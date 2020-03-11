@@ -11,7 +11,7 @@ pipeline{
         stage("This is 2"){
             steps{
                 script{
-                    tools.PrintMes("this is my lib!")
+                    tools.PrintMes("this is my lib!"，"green")
                 }
                 
             }
