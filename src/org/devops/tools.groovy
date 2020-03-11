@@ -1,5 +1,5 @@
 package org.devops
 //打印内容
-def call(content){
+def PrintMes(content){
   println(content)
 }
