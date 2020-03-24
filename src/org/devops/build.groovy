@@ -3,7 +3,7 @@ package org.devops
 //构建类型
 
 def Build(buildType,buildShell){
-    def buildTools = ["mvn":"mvn","ant":"ANT,"gradle":"GRADLE","npm":"NODE"]
+    def buildTools = ["mvn":"mvn","ant":"ANT]
     
     println("当前选择的构建类型为${buildType}")
     
